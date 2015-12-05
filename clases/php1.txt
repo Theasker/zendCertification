@@ -1,0 +1,37 @@
+Hay que dejar abierto la etiqueta de php, porque el servidor web si lo cierras, todo lo que haya después del cierre de php será HTML.
+
+echo es una instrucción y print es una función, por lo que print devuelve un valor (0,1 según el resultado sea correcto o no) y echo no devuelve nada.
+
+\n -> Salto de línea
+\r -> Retorno de carro
+
+Carácteres a escapar con '
+
+Repasar capas OSI
+
+URL: Es el recurso
+URI: Es lo que identifica el recurso
+
+Los "métodos" son para los request (HEAD, GET, POST, PUT, DELETE, TRACE, OPTIONS, CONNECT).
+
+Qué es PHP
+
+El intérprete de PHP se llama Zend Engine.
+
+@agustincl
+
+Comentario multilínea que se interpreta para documentación.
+/**
+ *
+ */
+
+Codificacion
+
+Codificación Latin1 ?
+
+La coma (,) en php concatena igual que el punto (.), aunque las "buenas prácticas" indica que usemos el punto (.) para concatenar.
+
+Codificación UTF en 16 bits variables.
+UTF-BE
+UTF-LE
+

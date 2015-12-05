@@ -1,0 +1,67 @@
+include() -> Incluye el fichero, si no existe da un warning y continúa con la ejecución del script.
+
+require() Se requiere el fichero y si no está, da un error y se para la ejecución del script.
+
+
+==================================================
+buscar como no poder acceder a ficheros de sistema.
+
+http://php.net/manual/es/ini.core.php#ini.open-basedir
+==================================================
+
+Los tags HTML tienen que estár en minúsculas para ser buenas prácticas.
+
+Todos los nombres de ficheros, variables, etc. tienen que estar en inglés como buenas prácticas.
+
+Las variables globales son agujeros de seguridad, por lo que no se usan.
+
+Tipos de datos:
+var_dump() : Muestra el contenido de una variable (tipo,tamaño y contenido).
+
+print_r no muestra el varlor de false.
+
+Las constantes en buenas prácticas se define en mayúsculas.
+
+Expresiones y operadores
+=== Comparador de identidad (tipo y valor)
+
+El uso del operador @ son malas prácticas ya que los mensajes de error siguen estando en algún lugar.
+
+2 << 3 = 2 x 2 elevado al cubo.
+
+# c char
+
+&& y || son más rápidos que and y or.
+
+Tabla de multiplicar
+0 1 2 3 4
+1 1 2 3 4
+2 2 4 6 8
+3 3 6 9 12
+4 4 8 12 16
+
+Serie de fibonaci
+0 1 1 2 3 5 8 
+
+Deberes
+Dados 3 puntos, decir si esos 3 puntos están en la misma recta o no.
+
+Estudiar arboles binarios n-arios
+
+
+Arrays
+Las keys sólo pueden ser strings o arrays.
+Si se pone un entero entre comillas simples lo convierte en entero, no en string.
+
+Para hacer un push
+
+
+$chain = array();
+$chain[] = 
+
+Interface
+
+
+Cada fichero lleva una sola función. Y el nombre del fichero y la función tienen que ser idénticos.
+
+Los nombres de los ficheros y de las funciones tienen que ser "CamelCase" con la primera letra en mayúscula.
